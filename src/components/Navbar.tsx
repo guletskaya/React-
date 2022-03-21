@@ -1,5 +1,5 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 export const Navbar: React.FunctionComponent = () => (
   <nav>
@@ -23,7 +23,10 @@ export const Navbar: React.FunctionComponent = () => (
         <li>
           <NavLink to="/profile">Profile</NavLink>
         </li>
-        </ul>
+        <li>
+          <NavLink to="/">Log out</NavLink>
+        </li>
+      </ul>
     </div>
   </nav>
-)
+);
